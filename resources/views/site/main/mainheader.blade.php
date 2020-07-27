@@ -11,13 +11,19 @@
                         <li><a href="#">SHOP</a>
                             <ul class="single-dropdown">
                                  {{-- href="{{ route('profile.index') }} --}}
-                                <li><a href="{{ route('electshop') }}">Footwear</a></li>
+                                 <li><a href="{{ route('electricals') }}">Electronic</a> </li>
+                                <li><a href="{{ route('footwears') }}">Footwear</a> </li>
+                                <li><a href="{{ route('clothing') }}">Clothing</a></li>
+                                <li><a href="{{ route('perfumes') }}">Perfumes</a> </li>
+                                <li><a href="{{ route('giftshop') }}">GiftShop</a> </li>
+                                <li><a href="{{ route('accessories') }}">Accessories</a></li>
+                                {{-- <li><a href="{{ route('electshop') }}">Footwear</a></li>
                                 <li><a href="{{ route('electshop') }}">Clothing</a></li>
                                 <li><a href="{{ route('electshop') }}">Electronics</a></li> 
                                 <li><a href="{{ route('electshop') }}">Gifts Shop</a></li>
                                 <li><a href="{{ route('electshop') }}">Handicraft</a></li>
-                                <li><a href="{{ route('electshop') }}">Perfumes</a></li>
-                                <li><a target="_blank" href="{{ route('electshop') }}">Accessories</a></li>
+                                <li><a href="{{ route('electshop') }}">Perfumes</a></li> --}}
+                                <li><a target="_blank" href="{{ route('accessories') }}">Accessories</a></li>
                                
                             </ul>
                         </li>
@@ -240,13 +246,13 @@
                         <ul class="menu-overflow">
                             <li><a href="#">SHOP</a>
                                 <ul>
-                                    < <li><a href="{{ route('electshop') }}">Footwear</a></li>
-                                    <li><a href="{{ route('electshop') }}">Clothing</a></li>
-                                    <li><a href="{{ route('electshop') }}">Electronics</a></li> 
-                                    <li><a href="{{ route('electshop') }}">Gifts Shop</a></li>
-                                    <li><a href="{{ route('electshop') }}">Handicraft</a></li>
-                                    <li><a href="{{ route('electshop') }}">Perfumes</a></li>
-                                    <li><a target="_blank" href="{{ route('electshop') }}">Accessories</a></li>
+                                    
+                                    <li><a href="{{ route('electricals') }}">Electronic</a> </li>
+                                    <li><a href="{{ route('footwears') }}">Footwear</a> </li>
+                                    <li><a href="{{ route('clothing') }}">Clothing</a></li>
+                                    <li><a href="{{ route('perfumes') }}">Perfumes</a> </li>
+                                    <li><a href="{{ route('giftshop') }}">GiftShop</a> </li>
+                                    <li><a target="_blank" href="{{ route('accessories') }}">Accessories</a></li>
                                    
                                 </ul>
                             </li>

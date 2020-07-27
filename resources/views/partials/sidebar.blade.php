@@ -3,7 +3,7 @@
 
     <!-- logo start -->
     <div class="logo">
-      <h1><a href="index.html">Collective</a></h1>
+      <h1><a href="index.html">Supply Quality Products | MultiStore</a></h1>
     </div>
 
   <!-- if logo is image enable this -->
@@ -33,13 +33,16 @@
           <a href="#"><i class="fa fa-cogs"></i>
             <span>SHOPS <i class="lnr lnr-chevron-right"></i></span></a>
           <ul class="sub-menu-list">
-            <li><a href="carousels.html">Electronic</a> </li>
-            <li><a href="cards.html">Footwear</a> </li>
-            <li><a href="people.html">Fashion</a></li>
+            <li><a href="{{ route('electricals') }}">Electronic</a> </li>
+            <li><a href="{{ route('footwears') }}">Footwear</a> </li>
+            <li><a href="{{ route('clothing') }}">Fashion</a></li>
+            <li><a href="{{ route('perfumes') }}">Perfumes</a> </li>
+            <li><a href="{{ route('giftshop') }}">GiftShop</a> </li>
+            <li><a href="{{ route('accessories') }}">Accessories</a></li>
           </ul>
         </li>
         <li><a href="{{ route('admin.products.index') }}"><i class="fa fa-table"></i> <span>Products</span></a></li>
-        <li><a href="forms.html"><i class="fa fa-tachometer"></i> <span>Visit Shop</span></a></li>
+        <li><a href="{{ route('home') }}"><i class="fa fa-tachometer"></i> <span>Visit Shop</span></a></li>
         {{-- <li><a href="forms.html"><i class="fa fa-table"></i> <span>Categories</span></a></li> --}}
       
         {{-- <li>
@@ -79,8 +82,8 @@
       <!-- //sidebar nav end -->
       <!-- toggle button start -->
       <a class="toggle-btn">
-        <i class="fa fa-angle-double-left menu-collapsed__left"><span>Categories</span></i>
-        <i class="fa fa-angle-double-right menu-collapsed__right">Visit Shop</i>
+        <i class="fa fa-angle-double-left menu-collapsed__left"><span>Minimize</span></i>
+        <i class="fa fa-angle-double-right menu-collapsed__right">Expand</i>
       </a>
       <!-- //toggle button end -->
     </div>

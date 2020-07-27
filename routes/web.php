@@ -21,7 +21,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/electshop', 'ElectController@index')->name('electshop');
+Route::get('/electrical', 'ElectController@index')->name('electricals');
+Route::get('/clothing', 'ElectController@index')->name('clothing');
+Route::get('/footwears', 'ElectController@index')->name('footwears');
+Route::get('/perfumes', 'ElectController@index')->name('perfumes');
+Route::get('/giftshop', 'ElectController@index')->name('giftshop');
+Route::get('/accessories', 'ElectController@index')->name('accessories');
+
 Route::get('/electshopgrid', 'ShopgridController@index')->name('electshopgrid');
 //Products Controller
 
